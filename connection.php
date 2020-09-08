@@ -1,9 +1,9 @@
 <?php
 //error_reporting(E_ALL &~ E_NOTICE);
-$host= 'z8dl7f9kwf2g82re.cbetxkdyhwsb.us-east-1.rds.amazonaws.com';
-$username='cvf2t27kpj5m65sb';
-$password='	nnnfpk5zfzk7zmdl';
-$db= 'zvprmsw42f8y7jh2';
+$host= '	w1h4cr5sb73o944p.cbetxkdyhwsb.us-east-1.rds.amazonaws.com';
+$username='	vglylwnlf5knn5xo';
+$password='	zdpj1llx2epg4p4d';
+$db= 'nawo9h56r5tew9tf';
 
 $connect= mysqli_connect($host, $username, $password,$db);
 if($connect){
