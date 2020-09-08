@@ -8,6 +8,8 @@ $db= 'nawo9h56r5tew9tf';
 $connect= mysqli_connect($host, $username, $password,$db);
 if($connect){
     echo 'connected';
+}else{
+    echo mysqli_error();
 }
 
 $createTb = "CREATE TABLE students (
